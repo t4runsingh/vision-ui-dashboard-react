@@ -168,20 +168,20 @@ export default {
 
     cardDark: {
       deg: "126.97",
-      main: "rgba(6, 11, 40, 0.74) 28.26%",
-      state: "rgba(10, 14, 35, 0.71) 91.2%",
+      main: "rgba(0,0,0,1) 28.26%",
+      state: "rgba(23,23,23,1) 91.2%",
     },
 
     cardLight: {
       deg: "127.09",
-      main: "rgba(6, 11, 40, 0.94) 19.41%",
-      state: "rgba(10, 14, 35, 0.49) 76.65%",
+      main: "rgba(0,0,0,1) 19.41%",
+      state: "rgba(23,23,23,1) 76.65%",
     },
 
     card: {
       deg: "127.09",
-      main: "rgba(6, 11, 40, 0.94) 19.41%",
-      state: "rgba(10, 14, 35, 0.49) 76.65%",
+      main: "rgba(0,0,0,1) 19.41%",
+      state: "rgba(23,23,23,1) 76.65%",
     },
 
     menu: {

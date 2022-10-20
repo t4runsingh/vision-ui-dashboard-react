@@ -47,19 +47,19 @@ export default function data() {
 
   return {
     columns: [
-      { name: "companies", align: "left" },
+      { name: "Name", align: "left" },
       { name: "members", align: "left" },
-      { name: "budget", align: "center" },
-      { name: "completion", align: "center" },
+      { name: "Date", align: "center" },
+      { name: "Safety", align: "center" },
     ],
 
     rows: [
       {
-        companies: (
+        Name: (
           <VuiBox display="flex" alignItems="center">
-            <AdobeXD size="20px" />
+            {/* <AdobeXD size="20px" /> */}
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Chakra Vision UI Version
+              Test Person 1
             </VuiTypography>
           </VuiBox>
         ),
@@ -73,12 +73,12 @@ export default function data() {
             ])}
           </VuiBox>
         ),
-        budget: (
+        Date: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            $14,000
+            Aug 1,2022
           </VuiTypography>
         ),
-        completion: (
+        Safety: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
               60%
@@ -88,11 +88,11 @@ export default function data() {
         ),
       },
       {
-        companies: (
+        Name: (
           <VuiBox display="flex" alignItems="center">
-            <Atlassian size="20px" />
+            {/* <Atlassian size="20px" /> */}
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Add Progress Track
+              Test Person 2
             </VuiTypography>
           </VuiBox>
         ),
@@ -104,12 +104,12 @@ export default function data() {
             ])}
           </VuiBox>
         ),
-        budget: (
+        Date: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            $3,000
+            Aug 1,2022
           </VuiTypography>
         ),
-        completion: (
+        Safety: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
               10%
@@ -119,11 +119,11 @@ export default function data() {
         ),
       },
       {
-        companies: (
+        Name: (
           <VuiBox display="flex" alignItems="center">
-            <Slack size="20px" />
+            {/* <Slack size="20px" /> */}
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Fix Platform Errors
+              Test Person 3
             </VuiTypography>
           </VuiBox>
         ),
@@ -135,12 +135,12 @@ export default function data() {
             ])}
           </VuiBox>
         ),
-        budget: (
+        Date: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            Not set
+            Aug 1,2022
           </VuiTypography>
         ),
-        completion: (
+        Safety: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
               100%
@@ -150,11 +150,11 @@ export default function data() {
         ),
       },
       {
-        companies: (
+        Name: (
           <VuiBox display="flex" alignItems="center">
-            <Spotify size="20px" />
+            {/* <Spotify size="20px" /> */}
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Launch our Mobile App
+              Test Person 4
             </VuiTypography>
           </VuiBox>
         ),
@@ -168,12 +168,12 @@ export default function data() {
             ])}
           </VuiBox>
         ),
-        budget: (
+        Date: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            $20,500
+            Aug 1,2022
           </VuiTypography>
         ),
-        completion: (
+        Safety: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
               100%
@@ -183,11 +183,11 @@ export default function data() {
         ),
       },
       {
-        companies: (
+        Name: (
           <VuiBox display="flex" alignItems="center">
-            <Jira size="20px" />
+            {/* <Jira size="20px" /> */}
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Add the New Pricing Page
+              Test Person 5
             </VuiTypography>
           </VuiBox>
         ),
@@ -196,12 +196,12 @@ export default function data() {
             {avatars([[avatar4, "Jessica Doe"]])}
           </VuiBox>
         ),
-        budget: (
+        Date: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            $500
+            Aug 1,2022
           </VuiTypography>
         ),
-        completion: (
+        Safety: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
               25%
@@ -211,11 +211,11 @@ export default function data() {
         ),
       },
       {
-        companies: (
+        Name: (
           <VuiBox display="flex" alignItems="center">
-            <Invision size="20px" />
+            {/* <Invision size="20px" /> */}
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Redesign New Online Shop
+              Test Person 6
             </VuiTypography>
           </VuiBox>
         ),
@@ -227,12 +227,12 @@ export default function data() {
             ])}
           </VuiBox>
         ),
-        budget: (
+        Date: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            $2,000
+            Aug 1,2022
           </VuiTypography>
         ),
-        completion: (
+        Safety: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
               40%

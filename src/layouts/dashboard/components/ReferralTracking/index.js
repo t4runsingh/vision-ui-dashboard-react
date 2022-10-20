@@ -25,7 +25,7 @@ function ReferralTracking() {
 					sx={{ width: '100%' }}
 					mb='40px'>
 					<VuiTypography variant='lg' color='white' mr='auto' fontWeight='bold'>
-						Referral Tracking
+						People Tracking
 					</VuiTypography>
 					<VuiBox
 						display='flex'
@@ -83,10 +83,10 @@ function ReferralTracking() {
 								}
 							})}>
 							<VuiTypography color='text' variant='button' fontWeight='regular' mb='5px'>
-								Invited
+								People in pool
 							</VuiTypography>
 							<VuiTypography color='white' variant='lg' fontWeight='bold'>
-								145 people
+								8
 							</VuiTypography>
 						</VuiBox>
 						<VuiBox
@@ -105,11 +105,11 @@ function ReferralTracking() {
 									maxWidth: '100% !important'
 								}
 							})}>
-							<VuiTypography color='text' variant='button' fontWeight='regular' mb='5px'>
-								Bonus
+							<VuiTypography color='text' variant='button' fontWeight='regular' mb='6px'>
+								Temp
 							</VuiTypography>
 							<VuiTypography color='white' variant='lg' fontWeight='bold'>
-								1,465
+								24°C
 							</VuiTypography>
 						</VuiBox>
 					</Stack>

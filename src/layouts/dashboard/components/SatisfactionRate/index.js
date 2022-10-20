@@ -16,11 +16,11 @@ const SatisfactionRate = () => {
 		<Card sx={{ height: '340px' }}>
 			<VuiBox display='flex' flexDirection='column'>
 				<VuiTypography variant='lg' color='white' fontWeight='bold' mb='4px'>
-					Satisfaction Rate
+					Safety Score
 				</VuiTypography>
-				<VuiTypography variant='button' color='text' fontWeight='regular' mb='20px'>
+				{/* <VuiTypography variant='button' color='text' fontWeight='regular' mb='20px'>
 					From all projects
-				</VuiTypography>
+				</VuiTypography> */}
 				<VuiBox sx={{ alignSelf: 'center', justifySelf: 'center', zIndex: '-1' }}>
 					<VuiBox sx={{ position: 'relative', display: 'inline-flex' }}>
 						<CircularProgress variant='determinate' value={60} size={170} color='info' />
@@ -75,11 +75,11 @@ const SatisfactionRate = () => {
 						alignItems='center'
 						sx={{ minWidth: '80px' }}>
 						<VuiTypography color='white' variant='h3'>
-							95%
+							98%
 						</VuiTypography>
-						<VuiTypography color='text' variant='caption' fontWeight='regular'>
+						{/* <VuiTypography color='text' variant='caption' fontWeight='regular'>
 							Based on likes
-						</VuiTypography>
+						</VuiTypography> */}
 					</VuiBox>
 					<VuiTypography color='text' variant='caption' display='inline-block' fontWeight='regular'>
 						100%

@@ -45,6 +45,7 @@ import sidenavLogoLabel from "examples/Sidenav/styles/sidenav";
 
 // Vision UI Dashboard React context
 import { useVisionUIController, setMiniSidenav, setTransparentSidenav } from "context";
+import Logo from "assets/images/logo-ct.png";
 
 // Vision UI Dashboard React icons
 import SimmmpleLogo from "examples/Icons/SimmmpleLogo";
@@ -184,9 +185,11 @@ function Sidenav({ color, brandName, routes, ...rest }) {
                 })
               }
             >
-              <SimmmpleLogo size="24px" />
+              {/* <Logo /> */}
+
+              {/* <SimmmpleLogo size="24px" /> */}
             </VuiBox>
-            <VuiTypography
+            {/* <VuiTypography
               variant="button"
               textGradient={true}
               color="logo"
@@ -203,43 +206,12 @@ function Sidenav({ color, brandName, routes, ...rest }) {
               }
             >
               {brandName}
-            </VuiTypography>
+            </VuiTypography> */}
           </VuiBox>
         </VuiBox>
       </VuiBox>
       <Divider light />
       <List>{renderRoutes}</List>
-      <VuiBox
-        my={2}
-        mx={2}
-        mt="auto"
-        sx={({ breakpoints }) => ({
-          [breakpoints.up("xl")]: {
-            pt: 2,
-          },
-          [breakpoints.only("xl")]: {
-            pt: 1,
-          },
-          [breakpoints.down("xl")]: {
-            pt: 2,
-          },
-        })}
-      >
-        <SidenavCard color={color} />
-        <VuiBox mt={2}>
-          <VuiButton
-            component="a"
-            href="https://creative-tim.com/product/vision-ui-dashboard-pro-react"
-            target="_blank"
-            rel="noreferrer"
-            variant="gradient"
-            color={color}
-            fullWidth
-          >
-            Upgrade to PRO
-          </VuiButton>
-        </VuiBox>
-      </VuiBox>
     </SidenavRoot>
   );
 }

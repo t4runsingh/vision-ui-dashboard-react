@@ -20,6 +20,8 @@
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 
+// © 2021-2022 MadOwlAI Technologies LLP. All rights reserved. Private and Confidential
+
 function Footer() {
   return (
     <VuiBox
@@ -37,8 +39,8 @@ function Footer() {
           sx={{ textAlign: "center", fontWeight: "400 !important" }}
           color="white"
         >
-          @ 2021, Made with ❤️&nbsp;&nbsp;&nbsp; by{" "}
-          <VuiTypography
+          © 2021-2022 MadOwlAI Technologies LLP. All rights reserved. Private and Confidential{" "}
+          {/* <VuiTypography
             component="a"
             variant="button"
             href="https://simmmple.com/"
@@ -47,9 +49,9 @@ function Footer() {
             mr="2px"
           >
             Simmmple
-          </VuiTypography>
-          &
-          <VuiTypography
+          </VuiTypography> */}
+          {/* & */}
+          {/* <VuiTypography
             ml="2px"
             mr="2px"
             component="a"
@@ -59,11 +61,11 @@ function Footer() {
             color="white"
           >
             Creative Tim
-          </VuiTypography>
-          for a better web
+          </VuiTypography> */}
+          {/* for a better web */}
         </VuiTypography>
       </VuiBox>
-      <VuiBox item xs={10}>
+      {/* <VuiBox item xs={10}>
         <VuiBox display="flex" justifyContent="center" flexWrap="wrap" mb={3}>
           <VuiBox mr={{ xs: "20px", lg: "46px" }}>
             <VuiTypography
@@ -96,7 +98,7 @@ function Footer() {
             </VuiTypography>
           </VuiBox>
         </VuiBox>
-      </VuiBox>
+      </VuiBox> */}
     </VuiBox>
   );
 }
